@@ -3,11 +3,7 @@
 users = [{"name": "Kamil", "country": "Poland"}, {"name": "John", "country": "USA"}, {"name": "Yeti"}, ]
 print(f"Users: \n {users} \n")
 
-users_from_poland = []
-for user in users:
-    for country in user.values():
-        if country == "Poland":
-            users_from_poland.append(user['name'])
+users_from_poland = [user for user in users if user.get('country', '') == 'Poland']
 print(f"Name(s) of user(s) from Poland: \n {users_from_poland} \n")
 
 
