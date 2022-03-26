@@ -11,7 +11,7 @@ print(f"Name(s) of user(s) from Poland: \n {users_from_poland} \n")
 # numbers = [1,5,2,3,1,4,1,23,12,2,3,1,2,31,23,1,2,3,1,23,1,2,3,123]
 numbers = [1, 5, 2, 3, 1, 4, 1, 23, 12, 2, 3, 1, 2, 31, 23, 1, 2, 3, 1, 23, 1, 2, 3, 123]
 sum_of_10_elements_starting_with_5 = sum(numbers[5:15])
-print(f"Sum of first ten elements starting from element 5: \n {sum_of_10_elements_starting_with_5} \n")
+print(f"Sum of first ten elements starting from element 5: \n{sum_of_10_elements_starting_with_5} \n")
 
 
 # Fill list with powers of 2, n [1..20]
